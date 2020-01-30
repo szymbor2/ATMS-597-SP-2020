@@ -240,7 +240,7 @@ class TempConvert:
 
             # Check to see if out_unit is Kelvin
             elif (out_unit == 'kelvin') or (out_unit == 'K') or (out_unit == 'k'):
-                self.__temp = self._f2k
+                self.__temp = self._f2k()
 
             elif (out_unit == 'degF') or (out_unit == 'F') or (out_unit == 'f'):
                 self.__temp = self.__temp
